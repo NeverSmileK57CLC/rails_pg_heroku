@@ -17,7 +17,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: my_rails_pg_development1
+  database: my_rails_pg_development
   pool: 5
   username: nevesmile
   password:
@@ -46,7 +46,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: my_rails_pg_test1
+  database: my_rails_pg_test
   pool: 5
   username: nevesmile
   password:
@@ -54,7 +54,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: my_rails_pg_production1
+  database: my_rails_pg_production
   pool: 5
   username: nevesmile
   password:
